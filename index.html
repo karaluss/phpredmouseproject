@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Отдел кадров</title>
+        <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+<h3>ОТДЕЛ КАДРОВ</h3>
+<div id="blok1" class="first">
+    <h3>Новый сотрудник</h3>
+    <form action="index.html" method="post">
+        <label class="polya" for="surname">Фамилия</label><input id="surname" type="text" placeholder="Фамилия"><br><br>
+        <label class="polya" for="name">Имя</label><input id="name" type="text" placeholder="Имя"><br><br>
+        <label class="polya" for="father">Отчество</label><input id="father" type="text" placeholder="Отчество"><br><br>
+        <label class="polya" for="bdate">Дата рождения</label><input id="bdate" type="date"><br><br>
+
+
+    <label class="polya" for="otdel">Отдел</label>
+    <select id="otdel">
+        <option>Выберите...</option>
+        <option>Плановый отдел</option>
+        <option>Отдел по работе с клиентами</option>
+        <option>Экономический отдел</option>
+        <option>Отдел маркетинга</option>
+        <option>Бухгалтерия</option>
+    </select><br><br>
+
+        <label class="polya" for="male">Мужчина</label>
+    <input type="radio" name="sex" id="male">
+    <br><br>
+    <label class="polya" for="female">Женщина</label>
+    <input type="radio" name="sex" id="female"><br><br>
+        <label class="polya" for="vacancy">Должность</label>
+        <select id="vacancy">
+            <option>Выберите...</option>
+            <option>Директор</option>
+            <option>Офис-менеджер</option>
+            <option>Бухгалтер</option>
+            <option>Сис.админ</option>
+            <option>Менеджер-ПРК</option>
+        </select><br><br>
+        <input   type="checkbox" name="status" id="shtat"> <label for="shtat">Штатный сотрудник</label><br><br>
+    <input   type="checkbox" name="status" id="vneshtat1"><label for="vneshtat1">Работник по договору</label><br><br>
+    <input  " type="checkbox" name="status" id="vneshtat2"> <label for="vneshtat2">Без договора</label><br><br>
+
+        <label class="polya" for="zp">Зар.плата</label><input id="zp" type="number"><br><br>
+
+        <label class="polya" for="tabel">Таб.номер</label><input id="tabel" type="text"><br><br>
+
+        <label class="polya" for="pdate">Дата приема</label><input id="pdate" type="date"><br><br>
+
+        <input  type="submit" class="vne" value="Отправить">
+    </form>
+</div>
+<div id=block2 class="second">
+    <h3>Список сотрудников</h3>
+    <table class="tab1">
+        <tr>
+            <th>Таб.№</th>
+            <th>Фамилия</th>
+            <th>Имя</th>
+            <th>Должность</th>
+            <th>Анкета</th>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>Самойлов</td>
+            <td>Андрей</td>
+            <td>Директор</td>
+            <td><button><a href="ank1.html" target="_blank">Полная инфо</a></button></td>
+        </tr>
+        <tr>
+            <td>0002</td>
+            <td>Эсентаева</td>
+            <td>Галина</td>
+            <td>Офис-менеджер</td>
+            <td><button><a href="ank2.html" target="_blank">Полная инфо</a></button></td>
+        </tr>
+        <tr>
+            <td>0003</td>
+            <td>Крембер</td>
+            <td>Марина</td>
+            <td>Менеджер-ПРК</td>
+            <td><button><a href="ank3.html" target="_blank">Полная инфо</a></button></td>
+        </tr>
+        <tr>
+            <td>0004</td>
+            <td>Ситких</td>
+            <td>Олег</td>
+            <td>Сис.админ</td>
+            <td><button><a href="ank4.html" target="_blank">Полная инфо</a></button></td>
+        </tr>
+        <tr>
+            <td>0005</td>
+            <td>Чапбер</td>
+            <td>Кристина</td>
+            <td>Бухгалтер</td>
+            <td><button><a href="ank5.html" target="_blank">Полная инфо</a></button></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

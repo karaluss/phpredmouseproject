@@ -1,0 +1,76 @@
+body
+{
+    background-image: url("images/vo.jpg");
+}
+h3
+{
+    color: #120541;
+    text-align:center;
+}
+div.first {
+position: relative;
+    left: 470px;
+    top: 10px;
+    width: 400px;	height: 650px; /* Размеры */
+    background:gainsboro; /* Цвет фона */
+     border: 2px solid grey; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+
+}
+
+div.second {
+    position: relative;
+    left: 420px;
+    top: 30px;
+    width: 500px;	height: 300px; /* Размеры */
+    background:gainsboro; /* Цвет фона */
+    border: 2px solid grey; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+}
+
+table{
+    padding-left: 10px;
+    }
+th {
+    background: slategray; /* Цвет фона */
+       color: #120541; /* Цвет текста */
+    text-align: left; /* Выравнивание по левому краю */
+    padding: 13px;
+    padding-left: 20px;
+}
+tr. {
+    background: #ebd3d7; /* Цвет фона */
+    padding: 20px;
+    padding-left: 20px;
+}
+
+.polya
+{
+    padding: 20px;
+    height: 300px;
+    position: relative;
+    text-align: left;
+
+}
+.vne
+{position: relative;
+    padding: 10px;
+    bottom: 5px;
+    left: 150px;;
+
+}
+.vne
+{position: relative;
+    padding: 10px;
+    bottom: 5px;
+    left: 150px;
+
+#shtat
+{position: relative;
+    padding: 10px;
+    bottom: 5px;
+    left: 150px;
+.img
+{position: relative;
+            left: 300px;
+top: 200px;
